@@ -1,0 +1,38 @@
+name: LarroxUtils
+version: '${project.version}'
+main: dev.larrox.larroxutils.Main
+api-version: 1.20
+description: §8§l| §aMinecraft§7, but better (better than §cEssentialsX§7)
+default-permission: Larrox
+website: https://copyandbuild.github.io/
+author: Larrox
+commands:
+  kick:
+    permission: Larrox.kickplayer
+  ban:
+    permission: Larrox.banplayer
+  timer:
+    permission: Larrox.timer
+  gm:
+    aliases:
+      - gmode
+      - gamemode
+    permission: Larrox.gamemode
+  larrox:
+    permission: larrox.admin
+  fly:
+    permission: larrox.fly
+  flyspeed:
+    permission: larrox.flyspeed
+    aliases:
+      - fspeed
+      - fs
+      - flys
+      - fluggeschwindigkeit
+  walkspeed:
+    permission: larrox.walkspeed
+    aliases:
+      - wspeed
+      - walks
+      - ws
+      - laufgeschwindigkeit
